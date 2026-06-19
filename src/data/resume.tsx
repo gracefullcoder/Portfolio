@@ -138,7 +138,7 @@ export const DATA = {
   projects: [
     {
       title: "SNMP + ICMP Network Monitoring System",
-      href: "https://github.com/gracefullcoder/snmp-icmp-monitor",
+      href: "https://github.com/gracefullcoder/Network-Monitoring-System",
       dates: "2025",
       active: true,
       description:
@@ -198,7 +198,7 @@ export const DATA = {
     },
     {
       title: "Recruit Ease",
-      href: "https://recruit-ease.vercel.app",
+      href: "https://recruit-ease.onrender.com/",
       dates: "2024",
       active: true,
       description:
@@ -230,7 +230,7 @@ export const DATA = {
     },
     {
       title: "Koe the Café",
-      href: "https://koe-the-cafe.vercel.app",
+      href: "https://koe-the-cafe.onrender.com/",
       dates: "2023",
       active: true,
       description:
