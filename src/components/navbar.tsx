@@ -11,29 +11,9 @@ import { DATA } from "@/data/resume";
 
 export default function Navbar() {
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-4 z-30 max-[420px]:px-2">
-      <Dock
-        className="
-      z-50 pointer-events-auto relative
-
-      h-14 max-[420px]:h-12
-      p-2 max-[420px]:p-1
-
-      w-fit max-w-[95vw]
-      mx-auto flex gap-2 max-[420px]:gap-1
-
-      border
-      bg-card/90
-      backdrop-blur-3xl
-      shadow-[0_0_10px_3px]
-      shadow-primary/5
-
-      max-[420px]:scale-95
-      max-[380px]:scale-90
-      origin-bottom
-      overflow-x-auto
-    "
-      >
+    <div className="pointer-events-none fixed inset-x-0 bottom-4 z-30">
+      <Dock className="z-50 pointer-events-auto relative h-14 p-2 w-fit mx-auto flex gap-2 border bg-card/90 backdrop-blur-3xl shadow-[0_0_10px_3px] shadow-primary/5  max-[420px]:scale-95
+      max-[380px]:scale-90">
         {DATA.navbar.map((item) => {
           const isExternal = item.href.startsWith("http");
           return (
